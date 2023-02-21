@@ -1,7 +1,8 @@
-import avatar1 from '../assets/avatar-anisha.png'
 import Avatar from './shared/Avatar';
-import avatar2 from '../assets/avatar-shanai.png'
+import avatar1 from '../assets/avatar-anisha.png'
+import avatar2 from '../assets/avatar-ali.png'
 import avatar3 from '../assets/avatar-richard.png'
+import avatar4 from '../assets/avatar-shanai.png'
 import HText from './shared/htext/HText';
 import useMediaQuery from '../utils/useMediaQuery';
 const Slider = () => {
@@ -17,6 +18,7 @@ const Slider = () => {
                     <Avatar image={avatar1} name="Anisha Li" description=' See how your day-to-day tasks fit into wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details.Never lose sight of the bigger picture again.' />
                     <Avatar image={avatar2} name="Ali Bravo" description='See how your day-to-day tasks fit into wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details.Never lose sight of the bigger picture again.' />
                     <Avatar image={avatar3} name="Richard Watts" description='See how your day-to-day tasks fit into wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details.Never lose sight of the bigger picture again.' />
+                    <Avatar image={avatar4} name="Shanni Gough" description='See how your day-to-day tasks fit into wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details.Never lose sight of the bigger picture again.' />
 
                 </div>
                 <div className='text-center relative mt-10'>

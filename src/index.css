@@ -5,7 +5,12 @@
 @tailwind utilities;
 
 html,
-body,
+body {
+  background-image: url("./assets/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 110% -25%;
+}
 #root,
 .app {
   height: 100%;
@@ -16,11 +21,3 @@ body,
 #cta {
   background-image: url("./assets/bg-simplify-section-desktop.svg");
 }
-
-
-/* 
-  background-image: url("./assets/bg-tablet-pattern.svg");
-  background-repeat: no-repeat;
-  background-size: 800px;
-  background-position: 110% -25%;
-*/
